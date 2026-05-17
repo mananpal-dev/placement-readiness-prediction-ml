@@ -1,0 +1,355 @@
+{
+  "metrics": {
+    "Random Forest": {
+      "accuracy": 86.25,
+      "precision": 89.69,
+      "recall": 86.21,
+      "f1": 87.91,
+      "roc_auc": 93.59,
+      "avg_precision": 95.46,
+      "brier_score": 0.1056,
+      "cm": [
+        [
+          145,
+          23
+        ],
+        [
+          32,
+          200
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 86.75,
+      "precision": 89.08,
+      "recall": 87.93,
+      "f1": 88.5,
+      "roc_auc": 94.67,
+      "avg_precision": 96.23,
+      "brier_score": 0.0933,
+      "cm": [
+        [
+          143,
+          25
+        ],
+        [
+          28,
+          204
+        ]
+      ]
+    },
+    "SVM": {
+      "accuracy": 80.5,
+      "precision": 84.07,
+      "recall": 81.9,
+      "f1": 82.97,
+      "roc_auc": 90.83,
+      "avg_precision": 93.33,
+      "brier_score": 0.1249,
+      "cm": [
+        [
+          132,
+          36
+        ],
+        [
+          42,
+          190
+        ]
+      ]
+    },
+    "KNN": {
+      "accuracy": 80.25,
+      "precision": 85.92,
+      "recall": 78.88,
+      "f1": 82.25,
+      "roc_auc": 88.22,
+      "avg_precision": 91.72,
+      "brier_score": 0.1411,
+      "cm": [
+        [
+          138,
+          30
+        ],
+        [
+          49,
+          183
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 84.5,
+      "precision": 87.95,
+      "recall": 84.91,
+      "f1": 86.4,
+      "roc_auc": 93.75,
+      "avg_precision": 95.68,
+      "brier_score": 0.1126,
+      "cm": [
+        [
+          141,
+          27
+        ],
+        [
+          35,
+          197
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 84.75,
+      "precision": 88.34,
+      "recall": 84.91,
+      "f1": 86.59,
+      "roc_auc": 93.75,
+      "avg_precision": 95.57,
+      "brier_score": 0.1078,
+      "cm": [
+        [
+          142,
+          26
+        ],
+        [
+          35,
+          197
+        ]
+      ]
+    },
+    "LightGBM": {
+      "accuracy": 84.0,
+      "precision": 87.84,
+      "recall": 84.05,
+      "f1": 85.9,
+      "roc_auc": 93.08,
+      "avg_precision": 95.08,
+      "brier_score": 0.1189,
+      "cm": [
+        [
+          141,
+          27
+        ],
+        [
+          37,
+          195
+        ]
+      ]
+    },
+    "Stacking Ensemble": {
+      "accuracy": 86.75,
+      "precision": 88.41,
+      "recall": 88.79,
+      "f1": 88.6,
+      "roc_auc": 94.65,
+      "avg_precision": 96.26,
+      "brier_score": 0.0963,
+      "cm": [
+        [
+          141,
+          27
+        ],
+        [
+          26,
+          206
+        ]
+      ]
+    }
+  },
+  "feature_importances": {
+    "Random Forest": {
+      "ReadinessScore": 0.3255165482363028,
+      "TechnicalComposite": 0.09416772551480772,
+      "Tech_x_Internship": 0.05215063723916422,
+      "Backlogs": 0.04861108484603452,
+      "CGPA_x_Aptitude": 0.047902959346314236,
+      "SoftPowerIndex": 0.044909615136019064,
+      "ExperienceIndex": 0.04333105298046855,
+      "AptitudeTestScore": 0.0370905434779176,
+      "AcademicScore": 0.03155150399062219,
+      "Soft_x_Communication": 0.029550661989581332,
+      "HSC_Marks": 0.023867869576420894,
+      "TechnicalScore": 0.023809219754077,
+      "SSC_Marks": 0.023049045511987266,
+      "CGPA": 0.02293746519056996,
+      "SoftSkillsRating": 0.022800048573882323,
+      "MockInterviews": 0.021004991401412917,
+      "CommunicationScore": 0.019727516972793565,
+      "Projects": 0.013567887771037167,
+      "Internships": 0.013452407105244406,
+      "GitHub_Repos": 0.013212564398108447,
+      "PlacementTraining": 0.01274790163287598,
+      "CGPA_Band": 0.011536317301365322,
+      "CompetitiveCoding": 0.00926737749813252,
+      "Workshops_Certifications": 0.008566716574302583,
+      "ExtracurricularActivities": 0.005670337980557481
+    },
+    "Logistic Regression": {
+      "Internships": 1.6305918346888848,
+      "TechnicalScore": 1.6191225393435156,
+      "Backlogs": 1.5723520726356148,
+      "GitHub_Repos": 1.4716820372869115,
+      "Projects": 1.3581018060340326,
+      "SoftSkillsRating": 1.3255035037044811,
+      "CompetitiveCoding": 1.2660434889568426,
+      "MockInterviews": 1.1703013172354153,
+      "CommunicationScore": 1.1502077965754645,
+      "AptitudeTestScore": 1.1406639468511033,
+      "PlacementTraining": 1.0828209102919886,
+      "TechnicalComposite": 0.9796903694631248,
+      "Workshops_Certifications": 0.7442738921392249,
+      "CGPA_x_Aptitude": 0.6707055747375396,
+      "ExtracurricularActivities": 0.5634523647517532,
+      "ExperienceIndex": 0.5442335993068499,
+      "AcademicScore": 0.42147956119955865,
+      "Soft_x_Communication": 0.40123888883134795,
+      "HSC_Marks": 0.307994618894806,
+      "SSC_Marks": 0.2977305107555527,
+      "Tech_x_Internship": 0.28517301948156876,
+      "SoftPowerIndex": 0.27882224475071576,
+      "CGPA": 0.266669675869581,
+      "CGPA_Band": 0.05179160830266051,
+      "ReadinessScore": 0.003749055225581344
+    },
+    "Gradient Boosting": {
+      "ReadinessScore": 0.5540644120906197,
+      "Backlogs": 0.0596064717179905,
+      "CGPA_x_Aptitude": 0.04838646639292923,
+      "Tech_x_Internship": 0.03171986831083055,
+      "HSC_Marks": 0.031112824838231863,
+      "AcademicScore": 0.03056253980563427,
+      "Soft_x_Communication": 0.028679393625408053,
+      "TechnicalComposite": 0.02549838028982203,
+      "AptitudeTestScore": 0.024433206971361546,
+      "SSC_Marks": 0.02032292866392439,
+      "TechnicalScore": 0.018476968458901746,
+      "CommunicationScore": 0.016932344080586664,
+      "SoftSkillsRating": 0.0162258508962171,
+      "CGPA": 0.01487492376879917,
+      "MockInterviews": 0.012472036720550316,
+      "PlacementTraining": 0.011420508972110471,
+      "Projects": 0.011082916410623736,
+      "SoftPowerIndex": 0.010549028079236649,
+      "GitHub_Repos": 0.008891097139058671,
+      "ExperienceIndex": 0.008247393481634146,
+      "CompetitiveCoding": 0.005027992406429627,
+      "ExtracurricularActivities": 0.0042280921571017545,
+      "Workshops_Certifications": 0.003740362444454025,
+      "Internships": 0.0021805781614508395,
+      "CGPA_Band": 0.001263414116093097
+    },
+    "XGBoost": {
+      "ReadinessScore": 0.26189112663269043,
+      "Backlogs": 0.0776859000325203,
+      "PlacementTraining": 0.04574955999851227,
+      "ExperienceIndex": 0.03920440748333931,
+      "CGPA_x_Aptitude": 0.03839391469955444,
+      "AcademicScore": 0.034002672880887985,
+      "Soft_x_Communication": 0.0338020995259285,
+      "ExtracurricularActivities": 0.03373788297176361,
+      "Tech_x_Internship": 0.030290961265563965,
+      "MockInterviews": 0.030142975971102715,
+      "CGPA_Band": 0.029250934720039368,
+      "TechnicalComposite": 0.028091736137866974,
+      "Internships": 0.028050497174263,
+      "SoftPowerIndex": 0.027718251571059227,
+      "HSC_Marks": 0.027199959382414818,
+      "AptitudeTestScore": 0.026425737887620926,
+      "Projects": 0.02557949908077717,
+      "CommunicationScore": 0.025409609079360962,
+      "CompetitiveCoding": 0.025045286864042282,
+      "SoftSkillsRating": 0.023204531520605087,
+      "Workshops_Certifications": 0.022932255640625954,
+      "TechnicalScore": 0.021896254271268845,
+      "GitHub_Repos": 0.02185881696641445,
+      "CGPA": 0.02163129486143589,
+      "SSC_Marks": 0.020803915336728096
+    },
+    "LightGBM": {
+      "ReadinessScore": 1078,
+      "SSC_Marks": 574,
+      "CGPA_x_Aptitude": 546,
+      "HSC_Marks": 534,
+      "AptitudeTestScore": 513,
+      "AcademicScore": 495,
+      "CGPA": 480,
+      "TechnicalScore": 476,
+      "TechnicalComposite": 447,
+      "Tech_x_Internship": 396,
+      "CommunicationScore": 389,
+      "Backlogs": 386,
+      "Soft_x_Communication": 383,
+      "SoftSkillsRating": 286,
+      "SoftPowerIndex": 260,
+      "Projects": 218,
+      "MockInterviews": 196,
+      "ExperienceIndex": 196,
+      "GitHub_Repos": 169,
+      "PlacementTraining": 150,
+      "CGPA_Band": 109,
+      "Workshops_Certifications": 97,
+      "CompetitiveCoding": 89,
+      "ExtracurricularActivities": 82,
+      "Internships": 26
+    }
+  },
+  "shap_importance": {
+    "ReadinessScore": 0.1838760436180788,
+    "TechnicalComposite": 0.05585042669208361,
+    "Backlogs": 0.05306262287179253,
+    "CGPA_x_Aptitude": 0.032217397189286595,
+    "ExperienceIndex": 0.027092959188995583,
+    "Tech_x_Internship": 0.026148956069002256,
+    "SoftPowerIndex": 0.024821998159822806,
+    "AptitudeTestScore": 0.020396943786394575,
+    "AcademicScore": 0.01756211613921896,
+    "PlacementTraining": 0.016279901588288376,
+    "MockInterviews": 0.014645696524873124,
+    "Internships": 0.008857660070379577,
+    "HSC_Marks": 0.008616585679965861,
+    "CGPA": 0.00823985850689438,
+    "SSC_Marks": 0.007571534026849746,
+    "Projects": 0.007365741572939625,
+    "CGPA_Band": 0.006927224833004023,
+    "CompetitiveCoding": 0.006572941890369976,
+    "SoftSkillsRating": 0.006401555231096277,
+    "ExtracurricularActivities": 0.00557643884056459,
+    "TechnicalScore": 0.005159386051076592,
+    "Soft_x_Communication": 0.0051276483987998025,
+    "GitHub_Repos": 0.0038528266655635233,
+    "CommunicationScore": 0.003424009844269496,
+    "Workshops_Certifications": 0.0024859771927977286
+  },
+  "feature_names": [
+    "CGPA",
+    "Internships",
+    "Projects",
+    "Workshops_Certifications",
+    "AptitudeTestScore",
+    "SoftSkillsRating",
+    "ExtracurricularActivities",
+    "PlacementTraining",
+    "SSC_Marks",
+    "HSC_Marks",
+    "Backlogs",
+    "CommunicationScore",
+    "TechnicalScore",
+    "MockInterviews",
+    "GitHub_Repos",
+    "CompetitiveCoding",
+    "AcademicScore",
+    "TechnicalComposite",
+    "SoftPowerIndex",
+    "ExperienceIndex",
+    "ReadinessScore",
+    "CGPA_Band",
+    "CGPA_x_Aptitude",
+    "Tech_x_Internship",
+    "Soft_x_Communication"
+  ],
+  "best_model": "Logistic Regression",
+  "dataset_info": {
+    "total_samples": 2000,
+    "train_samples": 1856,
+    "test_samples": 400,
+    "placement_rate": 58.0,
+    "num_features": 25
+  }
+}
